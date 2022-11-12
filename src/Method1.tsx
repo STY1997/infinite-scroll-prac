@@ -1,6 +1,5 @@
-import React, { useState, useRef, useCallback } from 'react'
+import { useState, useRef, useCallback } from 'react'
 import usePosts from './hooks/usePosts'
-import { Post } from './interface/post';
 import PostCard from './PostCard'
 
 const Method1 = () => {
